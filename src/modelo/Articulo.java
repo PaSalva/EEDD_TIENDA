@@ -1,4 +1,4 @@
-
+package modelo;
 public class Articulo {
 	
 	// 1) Declarar atributos (precio, nombre, identificador)
