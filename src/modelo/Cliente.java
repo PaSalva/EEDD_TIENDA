@@ -8,6 +8,7 @@ public class Cliente implements ICliente {
 	private int iTamanioCarrito,iTamanioHistorial; // Contadores para los arrays
 	private Articulo historialArticulos[], carrito[];
 	private Date historialFechas[];
+	private byte MetodoAniadirHistorial;
 	
 	public Cliente(String sNombre, float fSaldo) {
 		setsNombre(sNombre);
