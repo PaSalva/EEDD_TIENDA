@@ -144,7 +144,7 @@ public class Cliente implements ICliente {
 
 	@Override
 	public String mostrarCarrito() {
-		String sResultado = "Contenido del carrito del cliente: " + this.sNombre + "\n";
+		String sResultado = "Contenido del carrito: " + this.sNombre + "\n";
 		sResultado += "------------------------------------------------\n";
 		for(int iContador = 0; iContador < this.iTamanioCarrito; iContador++) {
 			sResultado += this.carrito[iContador] + "\n";
