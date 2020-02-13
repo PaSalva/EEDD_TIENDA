@@ -152,4 +152,5 @@ public class Cliente implements ICliente {
 		sResultado += "------------------------------------------------\n";
 		return sResultado;
 	}
+	//*
 }
