@@ -9,8 +9,8 @@ public class Tienda implements ITienda {
 	private ArticuloController artController;
 	private ClienteController cliController;
 	private  byte finalizacion;
-	private byte obtenerArticulo;
-	private byte anadirClient;
+	private byte obtenerArticulos;
+	private byte anadirCliente;
 	
 	public Tienda() {
 		artController = new ArticuloController();
