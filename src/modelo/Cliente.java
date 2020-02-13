@@ -9,7 +9,7 @@ public class Cliente implements ICliente {
 	private Articulo historialArticulos[], carrito[];
 	private Date historialFechas[];
 	private byte MetodoAniadirHistorial;
-	private byte MetodoMostrar;
+	private byte MetodoMostrarHistorial;
 	
 	public Cliente(String sNombre, float fSaldo) {
 		setsNombre(sNombre);
