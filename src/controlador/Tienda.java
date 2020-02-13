@@ -8,6 +8,7 @@ public class Tienda implements ITienda {
 		
 	private ArticuloController artController;
 	private ClienteController cliController;
+	private  byte finalizacion;
 	
 	public Tienda() {
 		artController = new ArticuloController();
