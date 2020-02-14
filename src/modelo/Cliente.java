@@ -137,7 +137,7 @@ public class Cliente implements ICliente {
 		for(int iContador = 0; iContador < this.iTamanioHistorial; iContador++) {
 			sResultado += this.historialArticulos[iContador] + " en " + this.historialFechas[iContador] + "\n";
 		}
-		sResultado += "------------------------------------------------\n";
+		sResultado += "-------------------------------------------------\n";
 		
 		return sResultado;
 	}
