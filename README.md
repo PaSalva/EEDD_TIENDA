@@ -29,9 +29,9 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   - Variable precio, de tipo Double
   
   A continuación dispondremos de los siguientes métodos:
-    - getId()
-    - getNombre()
-    - getPrecio()
+   * getId()
+   * getNombre()
+   * getPrecio()
  
  
  
@@ -46,18 +46,18 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   - Variable tamanioHistorial, de tipo Integer
   
   A continuación dispondremos de los siguientes métodos:
-    - getNombre()
-    - getSaldo()
-    - aumentarSaldo()
-    - disminuirSaldo()
-    - meterAlCarrito()
-    - aniadirAHistorial()
-    - getCarrito()
-    - getHistorialFechas()
-    - getHistorialArticulos()
-    - mostrarCarrito()
-    - mostrarHistorial()
-    - mostrarSaldo()
+   * getNombre()
+   * getSaldo()
+   * aumentarSaldo()
+   * disminuirSaldo()
+   * meterAlCarrito()
+   * aniadirAHistorial()
+   * getCarrito()
+   * getHistorialFechas()
+   * getHistorialArticulos()
+   * mostrarCarrito()
+   * mostrarHistorial()
+   * mostrarSaldo()
 
 
 
