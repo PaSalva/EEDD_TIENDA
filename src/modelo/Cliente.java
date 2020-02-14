@@ -3,7 +3,7 @@ import java.util.Date;
 
 public class Cliente implements ICliente {
 	
-	private String sNombre; // Primary key
+	private String sNombre; // Primary key.
 	private float fSaldo;
 	private int iTamanioCarrito,iTamanioHistorial; // Contadores para los arrays
 	private Articulo historialArticulos[], carrito[];
