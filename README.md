@@ -13,13 +13,13 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   - Variable numClientes, de tipo Integer
   
   A continuación dispondremos de los siguientes métodos:
-    -llenarAlmacen()
-    -mostrarInventario()
-    -obtenerArticulos()
-    -aniadirCliente(c: Cliente)
-    -meterAlCarrito(a: Articulo, c: Cliente)
-    -venderCarrito(c: Cliente)
-    -vender(a: Articulo, c: Cliente)
+    - llenarAlmacen()
+    - mostrarInventario()
+    - obtenerArticulos()
+    - aniadirCliente()
+    - meterAlCarrito()
+    - venderCarrito()
+    - vender()
     
     
 
@@ -29,9 +29,9 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   - Variable precio, de tipo Double
   
   A continuación dispondremos de los siguientes métodos:
-    -getId()
-    -getNombre()
-    -getPrecio()
+    - getId()
+    - getNombre()
+    - getPrecio()
  
  
  
@@ -41,15 +41,23 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   - Vector carrito, de tipo Articulo
   - Variable nombre, de tipo String
   - Variable saldo, de tipo Double
+  - Variable tienda, de tipo Tienda
+  - Variable tamanioCarrito, de tipo Integer
+  - Variable tamanioHistorial, de tipo Integer
   
   A continuación dispondremos de los siguientes métodos:
-    -llenarAlmacen()
-    -mostrarInventario()
-    -obtenerArticulos()
-    -aniadirCliente(c: Cliente)
-    -meterAlCarrito(a: Articulo, c: Cliente)
-    -venderCarrito(c: Cliente)
-    -vender(a: Articulo, c: Cliente) 
+    - getNombre()
+    - getSaldo()
+    - aumentarSaldo()
+    - disminuirSaldo()
+    - meterAlCarrito()
+    - aniadirAHistorial()
+    - getCarrito()
+    - getHistorialFechas()
+    - getHistorialArticulos()
+    - mostrarCarrito()
+    - mostrarHistorial()
+    - mostrarSaldo()
 
 
 
