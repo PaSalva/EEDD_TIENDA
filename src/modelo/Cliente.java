@@ -149,7 +149,7 @@ public class Cliente implements ICliente {
 		for(int iContador = 0; iContador < this.iTamanioCarrito; iContador++) {
 			sResultado += this.carrito[iContador] + "\n";
 		}
-		sResultado += "------------------------------------------------\n";
+		sResultado += "-------------------------------------------------\n";
 		return sResultado;
 	}
 	
