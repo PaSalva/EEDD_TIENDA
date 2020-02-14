@@ -86,7 +86,7 @@ public class Cliente implements ICliente {
 		return historialFechas;
 	}
 
-	// Funciones especificas del Cliente
+	// Funciones especificas del Cliente.
 	@Override
 	public String mostrarSaldo() {
 		return "El saldo actual de "+this.sNombre+ " es: "+this.fSaldo+" euros.";
