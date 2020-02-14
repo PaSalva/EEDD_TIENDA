@@ -6,20 +6,20 @@ En este proyecto desarrollaremos una app de gestión, en este caso para una Tien
 Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
 
 **Dentro de la clase Tienda encontraremos lo siguiente:**
-  - Vector articulos, de tipo Articulo
-  - Vector cantidades, de tipo Integer
-  - Vector clientes, de tipo Cliente
-  - Variable numArticulos, de tipo Integer
-  - Variable numClientes, de tipo Integer
+  * Vector articulos, de tipo Articulo
+  * Vector cantidades, de tipo Integer
+  * Vector clientes, de tipo Cliente
+  * Variable numArticulos, de tipo Integer
+  * Variable numClientes, de tipo Integer
   
   A continuación dispondremos de los siguientes métodos:
-    -llenarAlmacen()
-    -mostrarInventario()
-    -obtenerArticulos()
-    -aniadirCliente()
-    -meterAlCarrito()
-    -venderCarrito()
-    -vender()
+    - llenarAlmacen()
+    - mostrarInventario()
+    - obtenerArticulos()
+    - aniadirCliente()
+    - meterAlCarrito()
+    - venderCarrito()
+    - vender()
     
     
 
