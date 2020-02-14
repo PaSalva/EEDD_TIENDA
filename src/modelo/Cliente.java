@@ -133,7 +133,7 @@ public class Cliente implements ICliente {
 	@Override
 	public String mostrarHistorial() {
 		String sResultado = "Mostrar historial de compras de " + this.sNombre + "\n";
-		sResultado += "------------------------------------------------\n";
+		sResultado += "-------------------------------------------------\n";
 		for(int iContador = 0; iContador < this.iTamanioHistorial; iContador++) {
 			sResultado += this.historialArticulos[iContador] + " en " + this.historialFechas[iContador] + "\n";
 		}
