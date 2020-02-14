@@ -13,13 +13,13 @@ Contaremos con tres clases, denominadas Tienda, Cliente y Articulo.
   * Variable numClientes, de tipo Integer
   
   A continuación dispondremos de los siguientes métodos:
-    - llenarAlmacen()
-    - mostrarInventario()
-    - obtenerArticulos()
-    - aniadirCliente()
-    - meterAlCarrito()
-    - venderCarrito()
-    - vender()
+    * llenarAlmacen()
+    * mostrarInventario()
+    * obtenerArticulos()
+    * aniadirCliente()
+    * meterAlCarrito()
+    * venderCarrito()
+    * vender()
     
     
 
